@@ -11,15 +11,6 @@
 		"dev": "concurrently \"npm run server\" \"npm run client\"",
 		"heroku-postbuild": "cd client && npm install && npm run build"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Ravindra27072001/Resume-Builder.git"
-	},
-	"keywords": [],
-	"bugs": {
-		"url": "https://github.com/Ravindra27072001/Resume-Builder/issues"
-	},
-	"homepage": "https://github.com/Ravindra27072001/Resume-Builder#readme",
 	"author": "Girish Thatte",
 	"license": "MIT",
 	"dependencies": {
